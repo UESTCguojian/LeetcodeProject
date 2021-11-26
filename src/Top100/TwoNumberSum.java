@@ -17,11 +17,9 @@ public class TwoNumberSum
     @Test
     public void test()
     {
-        Solution solution = new Solution();
+        TwoNumberSum solution = new TwoNumberSum();
         System.out.println(Arrays.toString(solution.twoSum(new int[]{3, 2, 4}, 6)));
     }
-}
-class Solution {
     public int[] twoSum(int[] nums, int target)
     {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
